@@ -1,7 +1,5 @@
 package com.episode6.android.appalarm.pro;
 
-import java.lang.reflect.Method;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Intent;
@@ -37,7 +35,7 @@ public class KillAndLaunchActivity extends Activity {
         }
         
         try {
-			Method m = ActivityManager.class.getMethod("killBackgroundProcesses", new Class[] {String.class});
+			ActivityManager.class.getMethod("killBackgroundProcesses", new Class[] {String.class});
 			setContentView(R.layout.froyo_kill_screen);
 		} catch (SecurityException e) {
 			// TODO Auto-generated catch block

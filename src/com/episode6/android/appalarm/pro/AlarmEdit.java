@@ -37,7 +37,7 @@ import android.widget.Toast;
 public class AlarmEdit extends Activity {
 	
 	private static final int MENU_OTHER_APPS = Menu.FIRST+1;
-	private static final int MENU_SUPPORT = Menu.FIRST+2;
+	//private static final int MENU_SUPPORT = Menu.FIRST+2;
 	private static final int MENU_SHARE_INTENT = Menu.FIRST+3;
 	
 	private static final int DIALOG_PICK_TIME = 1;

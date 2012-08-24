@@ -26,7 +26,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
-import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.util.Log;
@@ -56,7 +55,7 @@ public class AlarmList extends ListActivity {
 	private PackageManager mPackageManager;
 	
 	private static final int MENU_OTHER_APPS = Menu.FIRST+1;
-	private static final int MENU_SUPPORT = Menu.FIRST+2;
+	//private static final int MENU_SUPPORT = Menu.FIRST+2;
 	private static final int MENU_BACKUP = Menu.FIRST+3;
 	private static final int MENU_RESTORE = Menu.FIRST+4;
 	private static final int MENU_WELCOME = Menu.FIRST+9;
