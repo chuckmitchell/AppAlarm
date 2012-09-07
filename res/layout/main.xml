@@ -6,7 +6,8 @@
     android:orientation="vertical" >
 
 	<ListView android:id="@+id/android:list"
-		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
 		android:layout_weight="1" />
 
 	<TextView
@@ -24,18 +25,26 @@
 	    android:id="@+id/layoutButtons"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
-	    android:background="#CCC"
 	    android:gravity="center"
-	    android:orientation="horizontal"
-	    android:padding="2dip" >
+	    android:orientation="horizontal" >
 
-		<Button android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:layout_marginLeft="5dip"
-			android:layout_marginRight="5dip" android:text="@string/al_menu_add"
-			android:layout_weight="1" android:id="@+id/m_btn_add_new" />
-		<Button android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:layout_marginLeft="5dip"
-			android:layout_marginRight="5dip" android:text="@string/al_menu_toggle_notif"
-			android:layout_weight="1" android:id="@+id/m_btn_toggle_notif" />
+		<Button
+		    android:id="@+id/m_btn_add_new"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_margin="2dip"
+		    android:layout_weight="1"
+		    android:text="@string/al_menu_add"
+		    android:width="50%" />
+
+		<Button
+		    android:id="@+id/m_btn_toggle_notif"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_margin="2dip"
+		    android:layout_weight="1"
+		    android:text="@string/al_menu_toggle_notif"
+		    android:width="50%" />
+
 	</LinearLayout>
 </LinearLayout>
