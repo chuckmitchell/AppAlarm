@@ -87,5 +87,7 @@ IMPORTANT:
 <string name="snooze_warning">If you experience problems with Pandora or Slacker not starting correctly, please try disabling this feature.</string>
 <string name="ae_stop_app_warning_title">What app is this?</string>
 <string name="ae_stop_app_warning_message">If you want AppAlarm to stop a custom intent or home screen shortcut, you must select which app your custom intent represents. If you ignore this message, the \"Force App Restart On Launch\" and \"Stop App On Dismiss/Timeout\" features will be disabled.</string>
+<string name="no_alarms">No Alarms to Display</string>
+<string name="no_alarms_to_display">No Alarms to Display</string>
 </resources>
     

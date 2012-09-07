@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	android:orientation="vertical">
+    android:id="@+id/layoutMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
 	<ListView android:id="@+id/android:list"
 		android:layout_height="wrap_content" android:layout_width="fill_parent"
 		android:layout_weight="1" />
-	<TextView android:id="@+id/android:empty" android:gravity="center"
-		android:textColor="#FFF" android:textStyle="bold"
-		android:layout_width="fill_parent" android:textSize="18dip"
-		android:layout_height="wrap_content" android:layout_weight="1"
-		android:text="No Alarms to Display" />
-	<LinearLayout android:id="@+id/LinearLayout01"
-		android:layout_height="wrap_content" android:layout_width="fill_parent"
-		android:background="#CCC" android:orientation="horizontal"
-		android:padding="2dip" android:gravity="center">
+
+	<TextView
+	    android:id="@+id/android:empty"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:text="@string/no_alarms_to_display"
+	    android:textColor="#FFF"
+	    android:textSize="18dip"
+	    android:textStyle="bold" />
+
+	<LinearLayout
+	    android:id="@+id/layoutButtons"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#CCC"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:padding="2dip" >
+
 		<Button android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:layout_marginLeft="5dip"
 			android:layout_marginRight="5dip" android:text="@string/al_menu_add"
