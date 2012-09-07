@@ -27,24 +27,22 @@
 	    android:layout_height="wrap_content"
 	    android:gravity="center"
 	    android:orientation="horizontal" >
-
+
 		<Button
 		    android:id="@+id/m_btn_add_new"
-		    android:layout_width="wrap_content"
+		    android:layout_width="fill_parent"
 		    android:layout_height="fill_parent"
 		    android:layout_margin="2dip"
 		    android:layout_weight="1"
-		    android:text="@string/al_menu_add"
-		    android:width="50%" />
-
+		    android:text="@string/al_menu_add" />
+
 		<Button
 		    android:id="@+id/m_btn_toggle_notif"
-		    android:layout_width="wrap_content"
+		    android:layout_width="fill_parent"
 		    android:layout_height="fill_parent"
 		    android:layout_margin="2dip"
 		    android:layout_weight="1"
-		    android:text="@string/al_menu_toggle_notif"
-		    android:width="50%" />
+		    android:text="@string/al_menu_toggle_notif" />
 
 	</LinearLayout>
 </LinearLayout>
