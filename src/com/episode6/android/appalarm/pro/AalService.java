@@ -808,6 +808,10 @@ public class AalService extends Service {
 		alarmManager.set(AlarmManager.RTC_WAKEUP, snoozeTime, sender);
 		showAlarmSnoozeNotification(AlarmItem.getTimeoutText(mCurrentAlarmItem.getInt(AlarmItem.KEY_MUTE_SNOOZE_TIME)));
 	}
+	private void enableAllAlarms() {
+		
+	}
+	
 	private void cancelSnoozeAlarm() {
 		PendingIntent sender = PendingIntent.getBroadcast(this, 0, new Intent(this, SnoozeWakeupReceiver.class), 0);
 		AlarmManager alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);

@@ -84,6 +84,8 @@ public class AlarmList extends ListActivity {
         mDbAdapter = new AalDbAdapter(this);
         mDbAdapter.open();
         
+        
+        
         mPackageManager = getPackageManager();
         
         String dataString = getIntent().getDataString();
@@ -92,6 +94,8 @@ public class AlarmList extends ListActivity {
         	getIntent().setData(null);
 //        	finish();
         }
+        
+        
         
         Cursor c = mDbAdapter.fetchAllAlarms();
         startManagingCursor(c);
